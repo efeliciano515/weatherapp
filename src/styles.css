@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin: 0 auto;
+}
+
+h2 {
+  color: #9d0191;
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+}
+
+h1 {
+  color: #fd3a69;
+  text-align: center;
+}
+
+h3 {
+  color: #d8ae17;
+}
+
+h4 {
+  color: #0f78a1;
+  text-align: center;
+}
+
+.time {
+  text-align: center;
+  color: blueviolet;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.temp {
+  text-align: center;
+  color: green;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h5 {
+  display: inline;
+}
+
+h6 {
+  color: rgb(211, 64, 19);
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  color: rgb(104, 182, 104);
+  display: inline;
+  font-weight: bold;
+}
+
+.row {
+  border: solid #32a1ce;
+  border-radius: 5px;
+  background-color: rgb(195, 221, 241);
+}
+
+img {
+  display: block;
+  margin: auto;
+}
