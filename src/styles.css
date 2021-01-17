@@ -1,65 +1,90 @@
 body {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.wallpapersden.com/image/download/small-memory_am1pa2aUmZqaraWkpJRmbmdlrWZlbWU.jpg");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap");
+
 h2 {
-  color: #9d0191;
+  color: rgb(84, 209, 205);
   text-align: center;
-  background-color: rgb(192, 192, 192);
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 70px;
+  border-radius: 5px;
 }
 
 h1 {
-  color: #fd3a69;
+  color: #ffffff;
   text-align: center;
+  background-color: rgba(239, 79, 91, 0.7);
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 60px;
 }
 
-h3 {
-  color: #d8ae17;
+h5 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 25px;
+}
+
+#description {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
 }
 
 h4 {
-  color: #0f78a1;
+  color: #edf3f5;
   text-align: center;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 35px;
 }
-
-.time {
-  text-align: center;
-  color: blueviolet;
-  font-weight: bolder;
-  font-size: 30px;
+#humidity,
+#wind {
+  color: #e08a8c;
 }
 
 .temp {
   text-align: center;
-  color: green;
+  color: #fce680;
   font-weight: bolder;
-  font-size: 30px;
-}
-
-h5 {
-  display: inline;
-}
-
-h6 {
-  color: rgb(211, 64, 19);
-  font-size: 30px;
-  text-align: center;
-}
-
-p {
-  color: rgb(104, 182, 104);
-  display: inline;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: "Chau Philomene One", sans-serif;
 }
 
 .row {
-  border: solid #32a1ce;
-  border-radius: 5px;
-  background-color: rgb(195, 221, 241);
+  font-family: "Chau Philomene One", sans-serif;
 }
 
-img {
+img#icon {
   display: block;
   margin: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 800px;
+  background-image: url("https://wallpapercave.com/wp/wp7039463.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
